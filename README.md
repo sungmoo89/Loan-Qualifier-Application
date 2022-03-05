@@ -33,10 +33,11 @@ To use the loan qualifier application simply clone the repository and run the **
 python app.py
 ```
 
-Upon launching the loan qualifier application you will be first asked to find the path for data.
-
+1. Upon launching the loan qualifier application you will be first asked to find the path for data.
 ![How to load data](./data/Image/how_to_load_data.png)
+2. Punch in the data of yours to get the right data.
 ![How to provide information](./data/Image/how_to_provide_information.png)
+3. This shows how you can save the data. You can set your .csv file name to anything you like
 ![How to save result to .csv](./data/Image/save_to_csv.png)
 
 ---
