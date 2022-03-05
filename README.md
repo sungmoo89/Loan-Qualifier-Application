@@ -35,7 +35,7 @@ python app.py
 
 Upon launching the loan qualifier application you will be first asked to find the path for data.
 
-![How to load data](./data/Images/how_to_load_data.png)
+![How to load data](./data/Images/how_to_load_data.png?raw=true"AlternateText")
 ![How to provide information](./data/Images/how_to_provide_information.png)
 ![How to save result to .csv](./data/Images/save_to_csv.png)
 
