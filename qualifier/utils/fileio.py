@@ -39,7 +39,7 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    check_to_save = questionary.text("Do you want to save?").ask()
+    check_to_save = questionary.confirm("Do you want to save?").ask()
     
     csv_save = questionary.text("Set the file name to: ").ask()
     csv_save = Path(csv_save)
@@ -48,8 +48,8 @@ def save_qualifying_loans(qualifying_loans):
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(header)
         for row in qualifying_loans:
-            if check_to_save == "yes":
-                csvwriter.writerow(row)
-            else:
-                print("save failed")
-    return qualifying_loans
+            # if check_to_save == "yes":
+            #     csvwriter.writerow(row)
+            # else:
+            #     print("save failed")
+            return qualifying_loans
